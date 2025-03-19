@@ -4,9 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fire Protection Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+        }
+        .logo img {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #d32f2f;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .contact a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 220px;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #d32f2f, #ff5722);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.3s;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            border: none;
+            font-size: 16px;
+        }
+        .contact a img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .contact a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Sankri Enterprises</h1>
-    <p>Your trusted partner in fire safety and licensing.</p>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.jpg" alt="Company Logo">
+        </div>
+        <h1>Sankri Enterprises</h1>
+        <p>Our website is currently under development. Stay tuned for updates!</p>
+        <div class="contact">
+            <a href="tel:7208138691">
+                📞 Call Us
+            </a>
+            <a href="https://wa.me/7208138691" target="_blank">
+                <img src="whatsapp_icon.svg" alt="WhatsApp"> Chat on WhatsApp
+            </a>
+        </div>
+    </div>
 </body>
 </html>
